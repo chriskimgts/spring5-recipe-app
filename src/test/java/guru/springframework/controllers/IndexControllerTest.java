@@ -18,9 +18,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.view;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
-/**
- * Created by jt on 6/17/17.
- */
+
 public class IndexControllerTest {
 
     @Mock
