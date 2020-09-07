@@ -12,7 +12,6 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;
 import java.util.HashSet;
 import java.util.Set;
-import javax.validation.constraints.NotEmpty;
 
 /**
  * Created by jt on 6/21/17.
@@ -23,7 +22,7 @@ import javax.validation.constraints.NotEmpty;
 public class RecipeCommand {
     private Long id;
 
-    @NotEmpty
+    @NotBlank
     @Size(min = 3, max = 255)
     private String description;
 
@@ -43,7 +42,7 @@ public class RecipeCommand {
     @URL
     private String url;
 
-    @NotEmpty
+    @NotBlank
     private String directions;
 
     private Set<IngredientCommand> ingredients = new HashSet<>();
