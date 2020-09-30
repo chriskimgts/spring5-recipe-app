@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/sfg_dev
     username: sfg_dev_user
-    password: ENC(6s5NGX5+VUe0qi5h8uB6FQ==)
+    password: guru
     platform: mysql
   jpa:
     hibernate:
