@@ -25,7 +25,7 @@ import org.springframework.transaction.annotation.Transactional;
  */
 @Slf4j
 @Component
-@Profile({"dev", "prod"})
+@Profile({"dev", "prod", "rdsmysql"})
 public class BootStrapMySQL implements ApplicationListener<ContextRefreshedEvent> {
 
     private final CategoryRepository categoryRepository;
