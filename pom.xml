@@ -5,7 +5,7 @@
 
     <groupId>guru.springframework</groupId>
     <artifactId>spring5-mysql-recipe-app</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>spring5-mysql-recipe-app</name>
@@ -132,5 +132,16 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
-
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>a0uj1nzwgmatn-artifactory-primary-0-releases</name>
+            <url>https://gts.jfrog.io/artifactory/spring-maven</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>a0uj1nzwgmatn-artifactory-primary-0-snapshots</name>
+            <url>https://gts.jfrog.io/artifactory/spring-maven</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
